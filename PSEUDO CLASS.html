@@ -1,0 +1,70 @@
+<DOCTYPE HTML>
+    <HTML>
+    <title> pseudo class </TITLE>
+
+    <head>
+        <style>
+        .list1 li:nth-last-of-type(3n+1){background-color: aqua;}
+        .list2 li:nth-of-type(odd){background-color: antiquewhite;}
+        input:empty{background-color: bisque;}
+        p {
+  color: #000000;
+}
+
+:not(p) {
+  color: blue;
+}
+:lang(en)q {
+    outline: 2px solid deeppink;
+}
+            
+        </style>
+    </head>
+
+    <body>
+        <h1> PSEUDO CLASS DEFINE </h1>
+        <div>
+        <UL class="list1">
+            <h2> nth-last-of-type</h2>
+            <li> nth- of- last-type= an element that is the nth sibling of its type counting from last sibling</li>
+            <li> nth-of-type = an element that is the nth sibling from its type</li>
+            <li> empty= an element that has no children</li>
+            <li> not= an elent that no represented by the argument</li>
+            <li> lang= allowsthe author to specify a language to use in a specific element</li>
+    
+        </UL></div>
+        <div>
+        <ol class=" list2">
+            <h2> nth-of-type</h2>
+            <li> first</li>
+            <li> secondt</li>
+            <li> first</li>
+            <li> first</li>
+            <li> first</li>
+        </ol>
+        </div>
+        <div>
+        <form>
+            <h2> Empty</h2>
+            <input type="text" name=" empty">
+
+        </form>
+    </div>
+    <h2> not</h2>
+        <p> this is para</p>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        
+        <div>
+            <h2> lang</h2>
+            <p>
+                <q>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, explicabo!
+                </q>
+            </p>
+        </div>
+        
+            
+
+
+    </body>
